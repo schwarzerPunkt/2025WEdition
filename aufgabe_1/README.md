@@ -13,6 +13,7 @@
 └── holzweg/                    # Experimental/dead-end code
 
 
+
 # Spinlock measurements with kernel module
 
 ## 1. Build the kernel module
@@ -43,11 +44,13 @@ lsmod | grep spinlock
 ## or check kernel log:
 dmesg | tail
 
+
+
 # Graphs and statistics
 
 Graphs and statistics can be created executing data_analysis.py from the command line:
 
-python data_analysis.py <csv_file> [output_name]
+    python data_analysis.py <csv_file> [output_name]
 
 .csv files are stored in the output/ directory.
 
